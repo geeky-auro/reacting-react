@@ -1,4 +1,4 @@
-
+import Chai from "./Chai";
 
 function App() {
   return (
@@ -8,4 +8,4 @@ function App() {
   );
 }
 
-export default App;
+export default Chai;
