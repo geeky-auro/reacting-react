@@ -26,8 +26,12 @@ const reactElement = {
     children: 'Click me to visit google'
 }
 
+const anotherElement=(
+    <a href="https://google.com" target="_blank">Visit Google</a>
+)
+
 
 const mainContainer =document.querySelector("#root")
 
 
-customRender(reactElement,mainContainer)
+customRender(anotherElement,mainContainer)
